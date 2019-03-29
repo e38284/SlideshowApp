@@ -14,6 +14,10 @@
 		EDB1B48522460E3A00E206F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB1B48322460E3A00E206F5 /* LaunchScreen.storyboard */; };
 		EDB1B49022460E3A00E206F5 /* SlideshowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1B48F22460E3A00E206F5 /* SlideshowAppTests.swift */; };
 		EDB1B49B22460E3A00E206F5 /* SlideshowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1B49A22460E3A00E206F5 /* SlideshowAppUITests.swift */; };
+		EDB1B4B5224CA25B00E206F5 /* chocolate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDB1B4B4224CA25A00E206F5 /* chocolate.jpg */; };
+		EDB1B4B7224CA26200E206F5 /* grape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDB1B4B6224CA26200E206F5 /* grape.jpg */; };
+		EDB1B4B9224CA26A00E206F5 /* onion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDB1B4B8224CA26A00E206F5 /* onion.jpg */; };
+		EDB1B4BD224E2D4100E206F5 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1B4BC224E2D4100E206F5 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		EDB1B49622460E3A00E206F5 /* SlideshowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB1B49A22460E3A00E206F5 /* SlideshowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowAppUITests.swift; sourceTree = "<group>"; };
 		EDB1B49C22460E3A00E206F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB1B4B4224CA25A00E206F5 /* chocolate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chocolate.jpg; path = "../../../../Documents/99.その他/02.素材/写真/chocolate.jpg"; sourceTree = "<group>"; };
+		EDB1B4B6224CA26200E206F5 /* grape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grape.jpg; path = "../../../../Documents/99.その他/02.素材/写真/grape.jpg"; sourceTree = "<group>"; };
+		EDB1B4B8224CA26A00E206F5 /* onion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = onion.jpg; path = "../../../../Documents/99.その他/02.素材/写真/onion.jpg"; sourceTree = "<group>"; };
+		EDB1B4BC224E2D4100E206F5 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				EDB1B47A22460E3900E206F5 /* AppDelegate.swift */,
+				EDB1B4BC224E2D4100E206F5 /* NextViewController.swift */,
 				EDB1B47C22460E3900E206F5 /* ViewController.swift */,
 				EDB1B47E22460E3900E206F5 /* Main.storyboard */,
+				EDB1B4B4224CA25A00E206F5 /* chocolate.jpg */,
+				EDB1B4B6224CA26200E206F5 /* grape.jpg */,
+				EDB1B4B8224CA26A00E206F5 /* onion.jpg */,
 				EDB1B48122460E3A00E206F5 /* Assets.xcassets */,
 				EDB1B48322460E3A00E206F5 /* LaunchScreen.storyboard */,
 				EDB1B48622460E3A00E206F5 /* Info.plist */,
@@ -229,8 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDB1B4B7224CA26200E206F5 /* grape.jpg in Resources */,
+				EDB1B4B9224CA26A00E206F5 /* onion.jpg in Resources */,
 				EDB1B48522460E3A00E206F5 /* LaunchScreen.storyboard in Resources */,
 				EDB1B48222460E3A00E206F5 /* Assets.xcassets in Resources */,
+				EDB1B4B5224CA25B00E206F5 /* chocolate.jpg in Resources */,
 				EDB1B48022460E3900E206F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDB1B47D22460E3900E206F5 /* ViewController.swift in Sources */,
+				EDB1B4BD224E2D4100E206F5 /* NextViewController.swift in Sources */,
 				EDB1B47B22460E3900E206F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
